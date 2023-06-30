@@ -29,7 +29,7 @@ export default function MultiActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: 362, maxHeight: 362, mx: 4.25, my: 5.25 }}>
+      {/* <Card sx={{ maxWidth: 362, maxHeight: 362, mx: 4.25, my: 5.25 }}>
         <CardActionArea component={Link} to={"/pathfinder"}>
           <CardMedia
             component="img"
@@ -46,7 +46,7 @@ export default function MultiActionAreaCard() {
             </Typography>
           </CardContent>
         </CardActionArea>
-      </Card>
+      </Card> */}
     </>
   );
 }
